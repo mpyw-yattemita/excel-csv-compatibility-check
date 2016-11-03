@@ -1,9 +1,5 @@
 <?php
 
-$rows = [
-
-];
-
 $charsets = [
     'Shift_JIS'  => ['cp932', ""],
     'UTF-16_LE' => ['utf-16le', "\xEF\xBB\xBF"],
