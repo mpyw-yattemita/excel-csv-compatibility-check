@@ -11,6 +11,8 @@
 ◯: 開こうとするとウィザードが出現するが，デフォルトの設定で開けた
 △: 開こうとするとウィザードが出現し，区切り文字を変更すれば開けた
 ✕: 文字化けしたり表示が崩れたりして開けなかった
+
+文字コード.実際の中身のフォーマット.拡張子
 ```
 
 ### Windows
@@ -54,5 +56,6 @@ UTF-16_LE.TSV.tsv: ◯
 ## Contribution
 
 不明である場所は空けてあります。空欄埋めにご協力ください。  
-`questionnaire_form.txt`の形式で Pull Request または Issue でご報告ください。
+`questionnaire_form.txt`の形式で Pull Request または Issue でご報告ください。  
+各ファイルは `files` の中にあります。
 
