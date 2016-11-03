@@ -23,6 +23,14 @@
 #### Office 2010
 
 ```
+Shift_JIS.CSV.csv: ◎
+Shift_JIS.CSV.tsv: △
+Shift_JIS.TSV.csv: ✕
+Shift_JIS.TSV.tsv: ◯
+UTF-16_LE.CSV.csv: △
+UTF-16_LE.CSV.tsv: △
+UTF-16_LE.TSV.csv: ◯
+UTF-16_LE.TSV.tsv: ◯
 ```
 
 #### Office 2013
