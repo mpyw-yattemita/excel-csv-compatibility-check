@@ -1,10 +1,8 @@
 # Microsoft Excel で開ける CSV 関連のフォーマットまとめ
 
-## プラットフォーム別早見表
+## 調査
 
-2010年より古いものは考慮しません。
-
-#### 凡例
+### 凡例
 
 ```
 ◎: 一発で開けた
@@ -18,22 +16,17 @@
 なお，**ファイルをダブルクリックで開いてもウィザードは出現せず**，Excelメニューの「開く」を使う必要があります。  
 ウィザードが省略された場合に使われるのは，ウィザードが表示された場合におけるデフォルトの設定です。
 
-### Windows
+### 結果
 
-#### Office 2010
+以下の製品を対象としました。
 
-```
-Shift_JIS.CSV.csv: ◎
-Shift_JIS.CSV.tsv: △
-Shift_JIS.TSV.csv: ✕
-Shift_JIS.TSV.tsv: ◯
-UTF-16_LE.CSV.csv: △
-UTF-16_LE.CSV.tsv: △
-UTF-16_LE.TSV.csv: ◯
-UTF-16_LE.TSV.tsv: ◯
-```
+- Office 2010
+- Office 2013
+- Office 2016
+- Office for Mac 2011
+- Office 2016 for Mac
 
-#### Office 2013
+結果はすべて同一でした。
 
 ```
 Shift_JIS.CSV.csv: ◎
@@ -46,43 +39,33 @@ UTF-16_LE.TSV.csv: ◯
 UTF-16_LE.TSV.tsv: ◯
 ```
 
-#### Office 2016
+## 結論
+
+ダブルクリックでスムーズに開けることを重視する場合，以下のような選択肢となります。
 
 ```
 Shift_JIS.CSV.csv: ◎
-Shift_JIS.CSV.tsv: △
-Shift_JIS.TSV.csv: ✕
-Shift_JIS.TSV.tsv: ◯
-UTF-16_LE.CSV.csv: △
-UTF-16_LE.CSV.tsv: △
 UTF-16_LE.TSV.csv: ◯
-UTF-16_LE.TSV.tsv: ◯
 ```
 
-### Mac
-
-#### Office for Mac 2011
-
-```
-```
-
-
-#### Office 2016 for Mac
+拡張子の意味を重視し，ダブルクリックで開けることにこだわらないのであれば，以下のような選択肢となります。
 
 ```
 Shift_JIS.CSV.csv: ◎
-Shift_JIS.CSV.tsv: △
-Shift_JIS.TSV.csv: ✕
 Shift_JIS.TSV.tsv: ◯
-UTF-16_LE.CSV.csv: △
-UTF-16_LE.CSV.tsv: △
-UTF-16_LE.TSV.csv: ◯
 UTF-16_LE.TSV.tsv: ◯
 ```
 
-## Contribution
+エンジニア系のユーザを対象にする場合は，文字化けリスクのあるShift_JISを採用する理由は皆無なので，以下のような選択肢が無難です。
 
-不明である場所は空けてあります。空欄埋めにご協力ください。  
-`questionnaire_form.txt`の形式で Pull Request または Issue でご報告ください。  
-各ファイルは `files` の中にあります。
+```
+UTF-16_LE.CSV.csv: △
+UTF-16_LE.TSV.tsv: ◯
+```
 
+## Contributors
+
+- [@chitoku-k](https://github.com/chitoku-k)
+- [@39ff](https://github.com/39ff)
+
+Thank you very much!
