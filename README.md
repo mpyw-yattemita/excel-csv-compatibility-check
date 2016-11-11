@@ -63,6 +63,10 @@ UTF-16_LE.CSV.csv: △
 UTF-16_LE.TSV.tsv: ◯
 ```
 
+## 追記
+
+Issue [#7](https://github.com/mpyw-yattemita/excel-csv-compatibility-check/issues/7) で報告されているとおり，Excel 2016 for Windows ではUTF-8がサポートされました。但し，BOMが必要かどうかなどの詳細，および Office Insider に限定しない全体を対象としたアップデート時期については不明です。情報が入手でき次第編集します。
+
 ## Contributors
 
 - [@chitoku-k](https://github.com/chitoku-k)
