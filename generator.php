@@ -77,7 +77,7 @@ foreach ($newlines as $newline => $code) {
         foreach ($extensions as $extension) {
             fwrite($form, "$newline.$format.$extension: \n");
             $fp = fopen(__DIR__ . "/files/$newline.$format.$extension", 'wb');
-            fputcsv($fp, ['Character', 'Actor']);
+            fputcsv($fp, ['Character', 'Actor'], $delimiter);
             fputcsv($fp, ["Cocoa{$code}Hoto", "Ayane{$code}Sakura"], $delimiter);
             fputcsv($fp, ["Chino{$code}kafuu", "Inori{$code}Minase"], $delimiter);
             fputcsv($fp, ["Sharo{$code}Kirima", "Maya{$code}Uchida"], $delimiter);
