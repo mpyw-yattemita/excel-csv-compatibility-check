@@ -192,10 +192,10 @@ LF.CSV.csv: ✕
 LF.CSV.tsv: ✕
 LF.TSV.csv: ✕
 LF.TSV.tsv: ✕
-CR.CSV.csv: ◯
+CR.CSV.csv: ◎
 CR.CSV.tsv: ✕
 CR.TSV.csv: ✕
-CR.TSV.tsv: ✕
+CR.TSV.tsv: ▲
 ```
 
 <!--
