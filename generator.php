@@ -65,7 +65,7 @@ foreach ($charsets as $charset => list($to, $bom)) {
             $fp = fopen(__DIR__ . "/files/$charset.$format.$extension", 'wb');
             stream_filter_prepend($fp, "convert.iconv.utf-8/$to");
             fwrite($fp, $bom);
-            fputcsv($fp, ['キャラ', '声優']);
+            fputcsv($fp, ['キャラ', '声優'], $delimiter);
             fputcsv($fp, ['保登心愛', '佐倉綾音'], $delimiter);
             fputcsv($fp, ['香風智乃', '水瀬いのり'], $delimiter);
             fputcsv($fp, ['桐間紗路', '内田真礼'], $delimiter);
