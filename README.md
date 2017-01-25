@@ -264,10 +264,6 @@ UTF-16_LE.*.CSV.csv: △
 
 ご覧の通り，完全な互換性を確保することは不可能です。但し，`CRLF`をMac版で開いたときには**2行目以降の先頭に空白ができる**という被害だけで済むので，1ファイルに統一したい場合は`CRLF`を使うと良いでしょう。見た目は半角スペースと同じなので，編集時に本物の半角スペースに置き換えてしまわないように注意しましょう。
 
-## 追記
-
-Issue [#7](https://github.com/mpyw-yattemita/excel-csv-compatibility-check/issues/7) の報告によれば，Excel 2016 for Windows ではUTF-8Nがサポートされた可能性があります。但し，Office Insider に限定しない全体を対象としたアップデート時期などについては不明です。情報が入手でき次第編集します。
-
 ## Contributors
 
 - [@chitoku-k](https://github.com/chitoku-k)
