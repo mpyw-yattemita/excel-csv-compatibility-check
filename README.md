@@ -110,26 +110,26 @@ UTF-16_LE.CSV.csv: △
 UTF-16_LE.CSV.tsv: △
 UTF-16_LE.TSV.csv: ◯
 UTF-16_LE.TSV.tsv: ◯
-UTF-8.CSV.csv: 
-UTF-8.CSV.tsv: 
-UTF-8.TSV.csv: 
-UTF-8.TSV.tsv: 
-UTF-8N.CSV.csv: 
-UTF-8N.CSV.tsv: 
-UTF-8N.TSV.csv: 
-UTF-8N.TSV.tsv: 
-CRLF.CSV.csv: 
-CRLF.CSV.tsv: 
-CRLF.TSV.csv: 
-CRLF.TSV.tsv: 
-LF.CSV.csv: 
-LF.CSV.tsv: 
-LF.TSV.csv: 
-LF.TSV.tsv: 
-CR.CSV.csv: 
-CR.CSV.tsv: 
-CR.TSV.csv: 
-CR.TSV.tsv: 
+UTF-8.CSV.csv: ▲
+UTF-8.CSV.tsv: ▲
+UTF-8.TSV.csv: ×
+UTF-8.TSV.tsv: ×
+UTF-8N.CSV.csv: ×
+UTF-8N.CSV.tsv: ×
+UTF-8N.TSV.csv: ×
+UTF-8N.TSV.tsv: ×
+CRLF.CSV.csv: ◎
+CRLF.CSV.tsv: ×
+CRLF.TSV.csv: ×
+CRLF.TSV.tsv: ▲
+LF.CSV.csv: ◎
+LF.CSV.tsv: ×
+LF.TSV.csv: ×
+LF.TSV.tsv: ▲
+CR.CSV.csv: ×
+CR.CSV.tsv: ×
+CR.TSV.csv: ×
+CR.TSV.tsv: ×
 ```
 
 #### Office for Mac 2011
