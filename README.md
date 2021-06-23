@@ -1,5 +1,8 @@
 # Microsoft Excel で開ける CSV 関連のフォーマットまとめ
 
+**NOTE: [Office 365 対応 · Issue #9 · mpyw-yattemita/excel-csv-compatibility-check](https://github.com/mpyw-yattemita/excel-csv-compatibility-check/issues/9)**  
+**Office 365 for Mac からは， Windows/Mac とも BOM つき UTF-8 で問題ありません。**
+
 ## 調査
 
 ### 凡例
